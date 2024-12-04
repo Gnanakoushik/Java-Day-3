@@ -1,0 +1,12 @@
+import java.util.*;
+public class FindingPowerof2{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int c=(1<<n);
+        System.out.println(c);
+
+    
+    }
+}
